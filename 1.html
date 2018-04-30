@@ -2,22 +2,18 @@
 <head>
 <script language="javascript">
 
+var toplam=0;
 
+for(var i=1;i<=10;i++)
+{
+    var sayi = prompt(i + ".sayıyı girin");
+    document.write(i + ".sayı = " + sayi + "<br />");
+    toplam = toplam + parseInt(sayi);
+}
+ortalama = parseInt(toplam) / 10;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+document.write("<br />Toplam : " + toplam);
+document.write("<br />Ortalama : " + ortalama);
 
 
 
